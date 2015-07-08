@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- filter滤波方式： 单滤波； 双滤波-->
+<!-- mode模式：正常；只听-->
+<!-- sendType发送类型：正常发送 ；单次正常发送 ；自发自收 ；单次自发自收-->
+<!-- framType帧类型：标准帧；扩展帧-->
+<!-- framFormat帧格式：数据帧；远程帧-->
+<STBY>
+<parm name="type" value="4"/>
+<parm name="accCode" value="0x0000000"/>
+<parm name="accMask" value="0xFFFFFFF"/>
+<parm name="time0" value="0x00"/>
+<parm name="time1" value="0x14"/>
+<parm name="filter" value="0x01"/>
+<parm name="mode" value="0x00"/>
+<parm name="sendType" value="0x01"/>
+<parm name="framType" value="0x01"/>
+<parm name="framFormat" value="0x00"/>
+</STBY>

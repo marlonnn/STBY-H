@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="UIShell.RemotingManagement" StartLevel="3" Version="1.0.0.0" Name="远程管理 Web 服务">
+  <Activator Type="UIShell.RemotingManagement.Activator"/>
+  <Runtime>
+    <Assembly Path="UIShell.RemotingManagement.dll" Share="true"/>
+    <Assembly Path="ICSharpCode.SharpZipLib.dll"/>
+    <Dependency BundleSymbolicName="UIShell.WebServiceWrapperService"/>
+  </Runtime>
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="false" />
+  </Extension>
+  <Extension Point="UIShell.WebServiceWrapperService.WebService">
+    <Service Port="9090" Name="BundleManagement" Type="UIShell.RemotingManagement.BundleManagementService"/>
+  </Extension>
+</Bundle>

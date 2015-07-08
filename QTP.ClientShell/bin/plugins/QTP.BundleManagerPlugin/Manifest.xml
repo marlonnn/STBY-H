@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="QTP.BundleManagerPlugin" Name="QTP.BundleManagerPlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="QTP.BundleManagerPlugin.Activator"/>
+  <Runtime>
+    <Assembly Path="bin\QTP.BundleManagerPlugin.dll"/>
+  </Runtime>
+  <Extension Point="QTP.OSGI">
+    <BundleManager Title="插件管理" Page="QTP.BundleManagerPlugin.BundleManagerView" />
+  </Extension>
+</Bundle>

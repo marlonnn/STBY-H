@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<STBYS>
+  <STBY name="STBY-H Test">
+    <parm id="1" item="A板卡LED Test" type="0x00400001" delay ="11000"/>
+    <parm id="2" item="B板卡LED Test" type="0x00200001" delay ="11000"/>
+    <parm id="3" item="A板卡LED On" type="0x00400002" delay ="500"/>
+    <parm id="4" item="B板卡LED On" type="0x00200002" delay ="500"/>
+    <parm id="5" item="A板卡LED Off" type="0x00400003" delay ="500"/>
+    <parm id="6" item="B板卡LED Off" type="0x00200003" delay ="500"/>
+
+    <parm id="7" item="A板卡Realy_Flash" type="0x00400006" delay ="8000"/>
+    <parm id="8" item="B板卡Realy_Flash" type="0x00200006" delay ="8000"/>
+
+    
+    <parm id="9" item="CAN1_422 Test" type="0x00200004" delay ="2000"/>
+    <parm id="10" item="CAN2_422 Test" type="0x00400004" delay ="2000"/>
+
+    <parm id="11" item="Key A Test" type="0x00200008" delay ="2000"/>
+    <parm id="12" item="Key AUTO Test" type="0x00200008" delay ="2000"/>
+    <parm id="13" item="Key B Test" type="0x00200008" delay ="2000"/>
+    
+
+    <parm id="14" item="A板卡Slot Test" type="0x0040000a" delay ="2000"/>
+    <parm id="15" item="B板卡Slot Test" type="0x0020000a" delay ="2000"/>
+    </STBY>
+  </STBYS>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="QTP.STBYPlugin" SymbolicName="QTP.STBYPlugin" Version="1.0.0.0" InitializedState="Active" StartLevel="2">
+  <Activator Type="QTP.STBYPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\QTP.STBYPlugin.dll" Share="false" MultipleVersions="false" />
+  </Runtime>
+  <Extension Point="QTP.OSGI">
+    <!--<VPI3 Title="STBY FCT综合测试" Page="QTP.STBYPlugin.View.STBY" />-->
+    <VPI3 Title="STBY-H FCT综合测试" Page="QTP.STBYPlugin.View.STBY_H" />
+  </Extension>
+</Bundle>

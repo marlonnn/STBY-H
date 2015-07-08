@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QTP.ClientShell", "QTP.ClientShell\QTP.ClientShell.csproj", "{2C6DEE3F-BD49-44F5-BFA4-E44B1C8BC8D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientShell", "ClientShell", "{8D73E737-5354-48D1-8DDC-BA8C7FC44FFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubSystemPlugins", "SubSystemPlugins", "{69630C4A-935D-4931-A874-87817B79776D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BundleManagerPlugins", "BundleManagerPlugins", "{0600F4A1-2986-472E-B2A5-62AE1B5C0051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QTP.BundleManagerPlugin", "QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\QTP.BundleManagerPlugin.csproj", "{E4D35AC9-B54C-413B-8A1E-55E59CD79BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabasePlugins", "DatabasePlugins", "{E4D993FA-D712-4CBE-B43A-B20A76D2C998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QTP.Sqlite3Plugin", "QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\QTP.Sqlite3Plugin.csproj", "{267DBBCC-8710-4F57-B73D-457DD35DCFC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VersionPlugins", "VersionPlugins", "{FA5CA55E-B538-44B0-AD88-2644C2B0A7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QTP.VersionPlugin", "QTP.ClientShell\bin\plugins\QTP.VersionPlugin\QTP.VersionPlugin.csproj", "{014B2F70-87B2-4396-9478-544615703F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QTP.STBYPlugin", "QTP.ClientShell\bin\plugins\QTP.STBYPlugin\QTP.STBYPlugin.csproj", "{27A78945-9899-464C-9201-D8E3699175FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C6DEE3F-BD49-44F5-BFA4-E44B1C8BC8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6DEE3F-BD49-44F5-BFA4-E44B1C8BC8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6DEE3F-BD49-44F5-BFA4-E44B1C8BC8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6DEE3F-BD49-44F5-BFA4-E44B1C8BC8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D35AC9-B54C-413B-8A1E-55E59CD79BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D35AC9-B54C-413B-8A1E-55E59CD79BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D35AC9-B54C-413B-8A1E-55E59CD79BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D35AC9-B54C-413B-8A1E-55E59CD79BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267DBBCC-8710-4F57-B73D-457DD35DCFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267DBBCC-8710-4F57-B73D-457DD35DCFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267DBBCC-8710-4F57-B73D-457DD35DCFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267DBBCC-8710-4F57-B73D-457DD35DCFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014B2F70-87B2-4396-9478-544615703F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B2F70-87B2-4396-9478-544615703F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B2F70-87B2-4396-9478-544615703F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B2F70-87B2-4396-9478-544615703F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A78945-9899-464C-9201-D8E3699175FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A78945-9899-464C-9201-D8E3699175FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A78945-9899-464C-9201-D8E3699175FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A78945-9899-464C-9201-D8E3699175FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C6DEE3F-BD49-44F5-BFA4-E44B1C8BC8D7} = {8D73E737-5354-48D1-8DDC-BA8C7FC44FFE}
+		{27A78945-9899-464C-9201-D8E3699175FA} = {69630C4A-935D-4931-A874-87817B79776D}
+		{E4D35AC9-B54C-413B-8A1E-55E59CD79BBA} = {0600F4A1-2986-472E-B2A5-62AE1B5C0051}
+		{267DBBCC-8710-4F57-B73D-457DD35DCFC2} = {E4D993FA-D712-4CBE-B43A-B20A76D2C998}
+		{014B2F70-87B2-4396-9478-544615703F82} = {FA5CA55E-B538-44B0-AD88-2644C2B0A7DA}
+	EndGlobalSection
+EndGlobal

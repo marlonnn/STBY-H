@@ -1,0 +1,12 @@
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\bin\QTP.BundleManagerPlugin.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\bin\QTP.BundleManagerPlugin.pdb
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\bin\UIShell.BundleManagementService.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\bin\UIShell.OSGi.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\bin\UIShell.iOpenWorks.BundleRepository.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\bin\UIShell.OSGi.xml
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\obj\Debug\ResolveAssemblyReference.cache
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\obj\Debug\QTP.BundleManagerPlugin.BundleManagerView.resources
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\obj\Debug\GenerateResource.read.1.tlog
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\obj\Debug\GenerateResource.write.1.tlog
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\obj\Debug\QTP.BundleManagerPlugin.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.BundleManagerPlugin\obj\Debug\QTP.BundleManagerPlugin.pdb

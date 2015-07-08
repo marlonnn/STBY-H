@@ -1,0 +1,9 @@
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\bin\QTP.Sqlite3Plugin.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\bin\QTP.Sqlite3Plugin.pdb
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\bin\System.Data.SQLite.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\bin\System.Data.SQLite.Linq.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\bin\UIShell.OSGi.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\bin\UIShell.OSGi.xml
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\obj\Debug\ResolveAssemblyReference.cache
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\obj\Debug\QTP.Sqlite3Plugin.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.Sqlite3Plugin\obj\Debug\QTP.Sqlite3Plugin.pdb

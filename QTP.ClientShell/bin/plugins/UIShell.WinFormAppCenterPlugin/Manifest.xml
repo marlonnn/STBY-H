@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="WinForm 插件中心插件" SymbolicName="UIShell.WinFormAppCenterPlugin" Version="1.0.0.8" InitializedState="Active">
+  <Activator Type="UIShell.WinFormAppCenterPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\UIShell.WinFormAppCenterPlugin.dll" Share="false" />
+    <Assembly Path="bin\SkinForm.dll" Share="true" />
+    <Dependency BundleSymbolicName="UIShell.BundleManagementService" AssemblyName="UIShell.BundleManagementService" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="AppCenterPage" Priority="50" Value="UIShell.WinFormAppCenterPlugin.AppCenterForm" />
+  </Extension>
+  <Extension Point="UIShell.Applications">
+    <Application Title="系统管理" ToolTip="系统管理" Icon="UIShell.WinFormAppCenterPlugin.Resources.shell.png">
+      <Menu Text="插件中心" ToolTip="插件中心" Icon="UIShell.WinFormAppCenterPlugin.Resources.shell.png" Class="UIShell.WinFormAppCenterPlugin.AppCenterUserControl" />
+      <Menu Text="插件管理" ToolTip="插件管理" Icon="UIShell.WinFormAppCenterPlugin.Resources.shell.png" Class="UIShell.WinFormAppCenterPlugin.BundleManagementUserControl" />
+    </Application>
+  </Extension>
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="false" />
+  </Extension>
+</Bundle>

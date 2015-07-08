@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="QTP.VersionPlugin" SymbolicName="QTP.VersionPlugin" Version="1.0.0.0" InitializedState="Active" StartLevel="20">
+  <Activator Type="QTP.VersionPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\QTP.VersionPlugin.dll" Share="false" MultipleVersions="false" />
+  </Runtime>
+  <Extension Point="QTP.OSGI">
+    <BundleManager Title="关于软件" Page="QTP.VersionPlugin.Version" />
+  </Extension>
+</Bundle>

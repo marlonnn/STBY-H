@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="QTP.Sqlite3Plugin" Name="QTP.Sqlite3Plugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="QTP.Sqlite3Plugin.Activator"/>
+  <Runtime>
+    <Assembly Path="bin\QTP.Sqlite3Plugin.dll"/>
+  </Runtime>
+</Bundle>

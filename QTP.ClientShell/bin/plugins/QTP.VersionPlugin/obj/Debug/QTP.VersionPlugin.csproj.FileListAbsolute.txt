@@ -1,0 +1,11 @@
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\bin\QTP.VersionPlugin.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\bin\QTP.VersionPlugin.pdb
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\bin\UIShell.OSGi.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\bin\UIShell.OSGi.xml
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\ResolveAssemblyReference.cache
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\QTP.VersionPlugin.Properties.Resources.resources
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\QTP.VersionPlugin.Version.resources
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\GenerateResource.read.1.tlog
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\GenerateResource.write.1.tlog
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\QTP.VersionPlugin.dll
+D:\CodeRepo\STBY-H\QTP.ClientShell\bin\plugins\QTP.VersionPlugin\obj\Debug\QTP.VersionPlugin.pdb
